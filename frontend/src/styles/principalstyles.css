@@ -1,6 +1,132 @@
+
+/* ESTOS ESTILOS SON DEL HEADER! */
+.justify_content_flex_end {
+    display:flex;
+    justify-content: flex-end;
+}
+
 /* tamaño del logo  */
 
 .logo_size {
     width: 15rem;
     height: 10rem;
 }
+
+/* tamaño de las iconos del nav, la lupa, el carrito y el perfil */
+.img_size_navbar {
+    width:3rem;
+    height:2rem;
+}
+
+
+.font_weight_nav {
+    font-weight: 300;
+}
+
+/* ESTILOS PARA EL CARROUSEL DEL HOME */
+
+.carousel-item {
+    height: 30rem;
+    background-color: #000;
+    color: white;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+}
+
+.container_carousel {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding-bottom: 50px;
+}
+
+.overlay-image {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    background-position: center;
+    background-size: cover;
+    opacity: 0.8;
+}
+
+/* Estilos secciòn de Short's */
+.FondoHeader{
+    background-image: url(../assets/images/ciudad_de_siluetas.jpg);
+    background-size: 100%;
+    background-color: antiquewhite, 50%;
+    background-size: 100%;
+    height: 300px;
+    border-radius: 10px;
+}
+.DosColumnas{
+    display: grid;
+    grid-template-columns: auto auto;
+
+}
+
+.fondoSeccionIZQShort {
+    display: grid;
+    background-image: url(../assets/images/fondo\ papel\ arrugado.jpg);
+    background-size: 100%;
+    background-color: antiquewhite, 50%;
+    grid-gap: 10px;
+    justify-content: space-between;
+    left: -10;
+    margin: 5px;
+    padding: 10px;
+    border-radius: 50px;
+}
+.bodySectionShort {
+    display: grid;
+    background-image: url(../assets/images/fondo\ marmol.jpg);
+    background-size: 100%;
+    background-color: antiquewhite, 50%;
+    grid-gap: 10px;
+    grid-template-columns: auto auto auto;
+    justify-content: space-between;
+    margin: 5px;
+    padding: 10px;
+    border-radius: 50px;
+}
+
+.articulosSeccionShort {
+    padding: 10px;
+    margin: 10px;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 60%);
+    width: 380px;
+    text-align: center;
+    border-top-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    border: 5px solid salmon ;
+    
+}
+.imagenesarticulosshort {
+    width: 350px;
+    margin-bottom: 10px;
+}
+.h1{
+    font-size: x-large;
+    color: salmon;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+}
+.p{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: salmon;
+    font-weight: 900;
+    font-style: italic;
+    text-align: center;
+
+}
+.button{
+    border: 10px;
+    border-top-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+    margin: 1px;
+}
+/* Estilos Artìculos Short's*/
