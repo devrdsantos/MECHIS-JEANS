@@ -26,7 +26,7 @@ function CarouselFadeExample() {
         />
 
         <Carousel.Caption>
-          <h3>Shorts</h3>
+          <h3>Shortsasd</h3>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
         </Carousel.Caption>
       </Carousel.Item>
