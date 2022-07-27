@@ -1,14 +1,15 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Header from './components/Header';
-import CarouselFadeExample from './components/CarouselFadeExample';
+import CarouselMain from './components/CarouselMain';
+import Footer from './components/Footer';
 
 function App() {
   return (
     <div className="App">
         < Header />
-        < CarouselFadeExample />
-      
+        < CarouselMain />
+        <Footer />
     </div>
   );
 }
