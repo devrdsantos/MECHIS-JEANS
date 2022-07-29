@@ -1,0 +1,15 @@
+.carousel-size {
+    height: 20rem;
+}
+
+.img-cover-carousel {
+    background-size: cover ;
+}
+
+.carousel-control-prev-icon {
+    display: none;
+}
+
+.carousel-control-next-icon {
+    display: none;
+}
