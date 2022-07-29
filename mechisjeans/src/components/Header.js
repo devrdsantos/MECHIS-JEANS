@@ -3,6 +3,7 @@ import { Button , Container , Form , Nav , Navbar } from 'react-bootstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faMagnifyingGlass , faCartShopping , faUser , faHeart } from '@fortawesome/free-solid-svg-icons';
 import '../styles/header.css'
+import Logo from '../assets/logorosa1.png'
 
 function Header() {
     return (
@@ -10,7 +11,7 @@ function Header() {
 				<div className="">
 				<Navbar expand="lg">
       <Container fluid>
-        <Navbar.Brand href="#">IMG LOGO</Navbar.Brand>
+        <Navbar.Brand href="#"> <img src={ Logo } alt="logo del header" /></Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse id="navbarScroll">
           <Nav
