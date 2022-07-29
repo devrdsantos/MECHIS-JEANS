@@ -4,7 +4,7 @@ import img2 from '../assets/img-2.jpg';
 import img4 from '../assets/img-4.jpg';
 import '../styles/carousel.css';
 
-function CarouselMain() {
+function CarouselFadeExample() {
   return (
     <Carousel fade >
       <Carousel.Item className="carousel-size">
@@ -48,4 +48,4 @@ function CarouselMain() {
   );
 }
 
-export default CarouselMain;
+export default CarouselFadeExample;
