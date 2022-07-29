@@ -1,0 +1,27 @@
+.header-bg-color {
+    background-color: #FFF;
+}
+
+.second-header-border {
+    border-top:  2px solid rgba(187, 180, 180, 0.178);
+    border-bottom: 2px solid rgba(187, 180, 180, 0.178);
+}
+
+.font-weight-bold {
+    font-weight: 500;
+    color: black;
+}
+
+.font-weight-bold:hover {
+    color: gray;
+}
+
+.border-none {
+    border: none;
+    margin-top: 5px;
+   margin-bottom: 5px;   
+}
+
+
+
+

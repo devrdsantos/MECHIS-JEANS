@@ -1,5 +1,17 @@
+<<<<<<< HEAD
 
 /* ESTOS ESTILOS SON DEL HEADER! */
+=======
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,500;1,400&display=swap');
+/* ESTOS ESTILOS SON DEL HEADER! */
+:root{
+    --backgroundBody: #fff8e7;
+    --buttom: #4ca5af; 
+}
+*{
+    font-family: 'Raleway', sans-serif;
+}
+>>>>>>> daniel
 .justify_content_flex_end {
     display:flex;
     justify-content: flex-end;
@@ -52,6 +64,7 @@
     background-size: cover;
     opacity: 0.8;
 }
+<<<<<<< HEAD
 
 /* Estilos secciòn de Short's */
 .FondoHeader{
@@ -130,3 +143,67 @@
     margin: 1px;
 }
 /* Estilos Artìculos Short's*/
+=======
+/*
+<------------------------------------------------------------------------------------------------------------------------>
+*/
+.page-content {
+    background-color: var(--backgroundBody);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.page-content h1 {
+    margin-top: 10px;
+}
+.buton-usuario {
+    display: inline-block;
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    border: 4px solid black;
+    padding: 13px 10px;
+    margin: 25px 10px;
+    font-size: 20px;
+    width: 70px;
+}
+.product-container {
+    margin: 15px;
+    padding: 4px 16px;
+    position: relative;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
+    background-color: white;
+    cursor: pointer;
+}
+.product-container:hover {
+    box-shadow: 5px 10px 16px 5px rgba(0, 0, 0, 0.2);
+}
+.product-container img {
+    border: 1px solid #000;
+    height: 350px;
+    width: 300px;
+}
+.product-container h2 {
+    display: flex;
+    justify-content: center;
+}
+.product-container h3 {
+    margin-bottom: 10px;
+    margin-left: 15px;
+}
+.button-add {
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    border: 4px solid var(--buttom);
+    transition-duration: 0.4s;
+    position: absolute;
+    right: 15px;
+    bottom: 10px;
+}
+.button-add:hover {
+    background-color: var(--buttom);
+    color: white;
+}
+>>>>>>> daniel
