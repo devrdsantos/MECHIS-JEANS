@@ -1,0 +1,76 @@
+* {
+    margin: auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.Contenedor-Principal-Log-In-Form {
+    background: #051c25be;
+    width: 320px;
+    padding: 30px;
+    padding-bottom: 10px;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 10px;
+    border-radius: 7px ;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: solid rgba(0, 5, 7, 0.5);
+}
+
+.Logo-form {
+    align-items: center;
+    margin: 0;
+}
+
+.Title-form {
+    font-size: 22px;
+    font-weight: 700;
+    color: purple;
+    margin-bottom: 10px;
+}
+
+.Label-form {
+    font-size: 18px;
+    font-weight: 400;
+    color: white;
+}
+
+.Contenedor-input-form {
+    width: 100%;
+}
+
+.Input-form {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    background-color: rgba(245, 245, 220, 0.212);
+    border-bottom: 15px;
+    border-radius: 4px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.button-form {
+    background-color: #24303c;
+    padding: 2px;
+    border-radius: 3px;
+    padding: 2px;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.P-form {
+    font-size: 14px;
+    font-weight: 200;
+    color: white;
+    margin-bottom: 5px;
+}

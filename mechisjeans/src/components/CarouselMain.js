@@ -2,6 +2,7 @@ import Carousel from 'react-bootstrap/Carousel';
 import img1 from '../assets/img-1.jpg';
 import img2 from '../assets/img-2.jpg';
 import img4 from '../assets/img-4.jpg';
+import img5 from '../assets/img-5.jpg';
 import '../styles/carousel.css';
 
 function CarouselMain() {
@@ -35,6 +36,18 @@ function CarouselMain() {
           className="d-block w-100 img-cover-carousel"
           src={img4}
           alt="Third slide"
+        />
+
+        <Carousel.Caption>
+          <h3>Shortsasd</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </Carousel.Caption>
+      </Carousel.Item>
+      <Carousel.Item className="carousel-size">
+        <img
+          className="d-block w-100 img-cover-carousel"
+          src={img5}
+          alt="Fourd slide"
         />
 
         <Carousel.Caption>

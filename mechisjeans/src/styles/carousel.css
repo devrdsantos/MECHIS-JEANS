@@ -1,9 +1,11 @@
 .carousel-size {
     height: 20rem;
+    background-color: black;
 }
 
 .img-cover-carousel {
-    background-size: cover ;
+    background-size:contain ;
+    position: relative;
 }
 
 .carousel-control-prev-icon {

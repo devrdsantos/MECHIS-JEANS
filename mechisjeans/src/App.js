@@ -5,15 +5,18 @@ import CarouselMain from './components/CarouselMain';
 import Footer from './components/Footer';
 import Cards from './components/Cards';
 import data  from './data';
-import './styles/card.css'
+import './styles/card.css';
+import RegistroDeIngreso from './components/LogInForm';
+import LogInForm from './components/LogInForm';
 
 function App() {
   return (
     <div className="App">
         <Header />
         <CarouselMain />
-        <Cards 
+        <Cards
         info = {data} />
+        <LogInForm />
         <Footer />
     </div>
   );
