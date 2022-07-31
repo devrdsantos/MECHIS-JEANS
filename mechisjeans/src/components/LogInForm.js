@@ -33,7 +33,7 @@ const LogInForm = () => {
       />
       <button className='button-form'> Ingresar </button>
       <PForm text='Olvidé mi contraseña'/>
-      <PForm text='No estoy registrada'/>
+      <PForm text='No estoy registrada, registrarme'/>
     </div>
   )
 }

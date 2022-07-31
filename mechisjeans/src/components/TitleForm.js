@@ -1,12 +1,10 @@
 import React from 'react';
 import "../styles/formstyle.css"
 
-const TitleForm = ({text}) => {
+const TitleForm = ({text, color}) => {
   return (
     <div className='Title-form'>
-      <label>
-        {text}
-      </label>
+      <label>{text}</label>
     </div>
   )
 }

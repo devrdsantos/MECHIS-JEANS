@@ -22,6 +22,23 @@
     border: solid rgba(0, 5, 7, 0.5);
 }
 
+.Contenedor-Principal-Log-Up-Form {
+    background: linear-gradient(180deg, #051c25be, #25050dbe, rgba(0, 0, 0, 0.9) 99%);
+    width: 450px;
+    padding: 30px;
+    padding-bottom: 10px;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 10px;
+    border-radius: 7px ;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: solid rgba(0, 5, 7, 0.5);
+}
+
 .Logo-form {
     align-items: center;
     margin: 0;
@@ -30,9 +47,19 @@
 .Title-form {
     font-size: 22px;
     font-weight: 700;
-    color: purple;
+    color: rgb(218, 15, 218, 90%);
     margin-bottom: 10px;
+    text-align: center;
 }
+
+.Subtitle-form {
+    font-size: 18px;
+    font-weight: 700;
+    color: rgb(218, 15, 218, 90%);
+    margin-bottom: 10px;
+    text-align: center;
+}
+
 
 .Label-form {
     font-size: 18px;
@@ -65,7 +92,16 @@
     color: white;
     font-size: 15px;
     font-weight: 600;
+    margin-top: 10px;
     margin-bottom: 15px;
+}
+
+.Contenedor-terminos {
+    display: flex;
+    justify-content: space-between;
+    gap: 12px;
+    margin-bottom: 10px;
+
 }
 
 .P-form {

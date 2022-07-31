@@ -8,6 +8,7 @@ import data  from './data';
 import './styles/card.css';
 import RegistroDeIngreso from './components/LogInForm';
 import LogInForm from './components/LogInForm';
+import LogUpForm from './components/LogUpForm';
 
 function App() {
   return (
@@ -16,7 +17,6 @@ function App() {
         <CarouselMain />
         <Cards
         info = {data} />
-        <LogInForm />
         <Footer />
     </div>
   );
