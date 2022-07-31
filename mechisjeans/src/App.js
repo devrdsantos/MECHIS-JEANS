@@ -6,9 +6,7 @@ import Footer from './components/Footer';
 import Cards from './components/Cards';
 import data  from './data';
 import './styles/card.css';
-import RegistroDeIngreso from './components/LogInForm';
-import LogInForm from './components/LogInForm';
-import LogUpForm from './components/LogUpForm';
+
 
 function App() {
   return (
