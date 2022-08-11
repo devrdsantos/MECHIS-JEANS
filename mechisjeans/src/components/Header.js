@@ -10,7 +10,7 @@ function Header() {
 				<div className="">
 				<Navbar expand="lg">
       <Container fluid>
-        <Navbar.Brand href="#">IMG LOGO</Navbar.Brand>
+        <Navbar.Brand href="#">IMG LOGOee</Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse id="navbarScroll">
           <Nav
