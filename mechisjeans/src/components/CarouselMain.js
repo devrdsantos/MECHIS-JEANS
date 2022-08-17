@@ -1,15 +1,15 @@
 import Carousel from 'react-bootstrap/Carousel';
 import img1 from '../assets/img-5.jpg';
 import img2 from '../assets/img-6.jpg';
-import img4 from '../assets/img-7.jpg';
+import img4 from '../assets/img-4.jpg';
 import '../styles/carousel.css';
 
 function CarouselMain() {
   return (
     <Carousel fade >
       <Carousel.Item className="carousel-size">       
-            <img src={img1} alt="img-description"
-            className="d-block w-100 carousel-img-size"
+            <img src={img4} alt="img-description"
+            className="d-block w-100 img-cover-carousel carousel-img-size"
             />
         <Carousel.Caption>
           <h3>Jeans</h3>
@@ -31,7 +31,7 @@ function CarouselMain() {
       <Carousel.Item className="carousel-size">
         <img
           className="d-block w-100 img-cover-carousel"
-          src={img4}
+          src={img1}
           alt="Third slide"
         />
 
