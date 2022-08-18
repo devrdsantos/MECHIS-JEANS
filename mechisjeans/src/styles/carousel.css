@@ -1,9 +1,10 @@
 .carousel-size {
-    height: 20rem;
+    height: 33rem;
+    display:flex;
 }
 
 .img-cover-carousel {
-    background-size: cover ;
+    justify-content: center ;
 }
 
 .carousel-control-prev-icon {
@@ -13,3 +14,4 @@
 .carousel-control-next-icon {
     display: none;
 }
+

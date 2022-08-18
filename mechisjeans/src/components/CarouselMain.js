@@ -1,18 +1,16 @@
 import Carousel from 'react-bootstrap/Carousel';
-import img1 from '../assets/img-1.jpg';
-import img2 from '../assets/img-2.jpg';
+import img1 from '../assets/img-5.jpg';
+import img2 from '../assets/img-6.jpg';
 import img4 from '../assets/img-4.jpg';
 import '../styles/carousel.css';
 
 function CarouselMain() {
   return (
     <Carousel fade >
-      <Carousel.Item className="carousel-size">
-        <img
-          className="d-block w-100"
-          src={img1}
-          alt="First slide"
-        />
+      <Carousel.Item className="carousel-size">       
+            <img src={img4} alt="img-description"
+            className="d-block w-100 img-cover-carousel carousel-img-size"
+            />
         <Carousel.Caption>
           <h3>Jeans</h3>
           <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
@@ -26,14 +24,14 @@ function CarouselMain() {
         />
 
         <Carousel.Caption>
-          <h3>Shortsasd</h3>
+          <h3>Shorts</h3>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item className="carousel-size">
         <img
           className="d-block w-100 img-cover-carousel"
-          src={img4}
+          src={img1}
           alt="Third slide"
         />
 

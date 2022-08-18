@@ -1,4 +1,5 @@
 import React from "react";
+import Logo from '../assets/logorosa1.png'
 
 function Footer() {
     return (
@@ -6,7 +7,7 @@ function Footer() {
         <div className="container-fluid">
         <div className="row p-5 pb-2 bg-dark text-secondary" >
           <div className="col-xs-12 col-md-6 col-lg-3">
-            <p className="h3">Logo</p>
+            <img className="img-size-logo" src={Logo} alt="logo" />
           </div>
           <div className="col-xs-12 col-md-6 col-lg-3">
             <p className="h4">Productos</p>
@@ -44,9 +45,9 @@ function Footer() {
               </button>
             </div>
             <div class="mb-2">
-              <button className="text-secondary text-decoration-none" >
+              <p className="text-secondary text-decoration-none" >
                 Instagram: @Mechisjeans
-              </button>
+              </p>
             </div>
             <div className="mb-2">
               <button className="text-secondary text-decoration-none" >
