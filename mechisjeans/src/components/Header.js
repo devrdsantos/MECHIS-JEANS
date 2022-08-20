@@ -8,6 +8,9 @@ import Logo from '../assets/logorosa1.png'
 function Header() {
     return (         
 	<header className="mb-3 header-bg-color">
+        <div className="flex div-header-especifico-prueba">
+            <p>3 cuotas sin interés con todas las tarjetas de crédito | Envio gratis a todo el país a partir de $40.000</p>
+        </div>
         <Navbar expand="lg">
             <Container fluid>
                 <Navbar.Brand href="#"> <img src={ Logo } alt="logo del header" /></Navbar.Brand>
