@@ -1,10 +1,10 @@
-import img1short from './assets/imgCards/PANTALÓN CORTO DE TENCEL CON COLOR.jpg';
-import img2short from './assets/imgCards/PANTALÓN CORTO PUSH IN SECRET GLAMOUR NEGRO.jpg';
-import img3short from './assets/imgCards/PANTALÓN VAQUERO PIRATA PUSH IN SECRET.jpg';
-import img4short from './assets/imgCards/PANTALONES CORTOS PUSH IN SECRET GLAMOUR CON COLOR amarillo.jpg';
-import img5short from './assets/imgCards/PANTALONES CORTOS PUSH IN SECRET GLAMOUR CON COLOR.jpg';
-import img6short from './assets/imgCards/short-denim-verano-2022-scaled.jpg';
-import img7short from './assets/imgCards/BERMUDA VAQUERA PUSH IN SECRET GLAMOUR CON LAVADO OSCURO.jpg';
+import img1short from './assets/imgCards/PANTALÓN CORTO DE TENCEL CON COLOR.png';
+import img2short from './assets/imgCards/PANTALÓN CORTO PUSH IN SECRET GLAMOUR NEGRO.png';
+import img3short from './assets/imgCards/PANTALÓN VAQUERO PIRATA PUSH IN SECRET.png';
+import img4short from './assets/imgCards/PANTALONES CORTOS PUSH IN SECRET GLAMOUR CON COLOR amarillo.png';
+import img5short from './assets/imgCards/PANTALONES CORTOS PUSH IN SECRET GLAMOUR CON COLOR.png';
+import img6short from './assets/imgCards/short-denim-verano-2022-scaled.png';
+import img7short from './assets/imgCards/BERMUDA VAQUERA PUSH IN SECRET GLAMOUR CON LAVADO OSCURO.png';
 
 
 export const cardOne = {

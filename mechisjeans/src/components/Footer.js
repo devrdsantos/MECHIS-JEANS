@@ -1,10 +1,11 @@
 import React from "react";
-import Logo from '../assets/logorosa1.png'
+import Logo from '../assets/logorosa1.png';
+import '../index.css';
 
 function Footer() {
-    return (
-        <footer>
-        <div className="container-fluid">
+  return (
+    <footer>
+      <div className="container-fluid">
         <div className="row p-5 pb-2 bg-dark text-secondary" >
           <div className="col-xs-12 col-md-6 col-lg-3">
             <img className="img-size-logo" src={Logo} alt="logo" />

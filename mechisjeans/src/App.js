@@ -21,6 +21,8 @@ function App() {
         info = {data} />
         <CardsShort
         info = {dataShort} />
+        <LogInForm />
+        <LogUpForm />
         <Footer />
     </div>
   );

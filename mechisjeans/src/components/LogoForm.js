@@ -1,12 +1,12 @@
 import React from 'react';
-import "../styles/formstyle.css";
-import Logo from '../assets/logorosa1.png';
+import "../styles/logos.css";
+import Logo from '../assets/logoloanaheader.png';
 
-const LogoForm = () => {
+const LogoHeader = () => {
   return (
     <div>
-      <img className="Logo-form" src={Logo} alt="logo" />
+      <img className="Logo-header" src={Logo} alt="logo" />
     </div>
   )
 }
-export default LogoForm;
+export default LogoHeader;
