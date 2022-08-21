@@ -44,9 +44,9 @@ function Header() {
             navbarScroll >
           </Nav>
           <SearchHeaderForm/>
-        </Navbar.Collapse>
-      </Container>
-    </Navbar>
+          </Navbar.Collapse>
+          </Container>
+          </Navbar>
 				</div>
 			</header>
     );

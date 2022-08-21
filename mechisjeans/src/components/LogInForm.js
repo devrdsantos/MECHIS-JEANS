@@ -51,7 +51,7 @@ export default LogInForm;
 
 
 
-{/*
+/*
   let useState = ''
   const [user, setUser] = useState('');
   const [password, setPassword] = useState('');
@@ -63,7 +63,7 @@ export default LogInForm;
   function handleSubmit () {
     let account = {user, password}
     if (account) { return true }
-  };*/}
+  };*/
 
 
 
@@ -71,10 +71,10 @@ export default LogInForm;
 
 
 
-{/*import { BrowserRouter, Routes, Route } from "react-router-dom";*/}
+/*import { BrowserRouter, Routes, Route } from "react-router-dom";*/
 
 
-{/*function LogInForm() {
+/*function LogInForm() {
   return (
     <div className='Contenedor-Principal-RegistroDeIngreso'>
       <div>
@@ -109,4 +109,4 @@ export default LogInForm;
   )
 }
 
-export default LogInForm;*/}
+export default LogInForm;*/
