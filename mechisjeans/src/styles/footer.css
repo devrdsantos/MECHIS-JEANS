@@ -1,3 +1,28 @@
+footer {
+    position: relative;
+}
+
 .background-black {
     background-color: #000;
+}
+
+.img-size-logo-footer {
+position: absolute;
+width: 375px;
+height: 375px;
+left: -10px;
+top: -30px;
+overflow: hidden;
+}
+
+.text-footer-color {
+color: #FEECE0;
+}
+
+.border-bottom-footer {
+    border-bottom: 3px solid #FEECE0;
+}
+
+.copyright-color {
+    color: #E2E2E2;
 }

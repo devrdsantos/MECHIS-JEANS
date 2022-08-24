@@ -1,78 +1,81 @@
 import React from "react";
-import Logo from "../assets/logorosa1.png";
+import Logo from "../assets/logoloanafooter.png";
 import "../styles/footer.css";
 import "../index.css";
+import { Link } from "react-router-dom";
 
 function Footer() {
   return (
     <footer>
       <div className="container-fluid">
-        <div className="row p-5 pb-2 bg-dark text-secondary">
+        <div className="row p-5 pb-2 background-black text-footer-color ">
           <div className="col-xs-12 col-md-6 col-lg-3">
-            <img className="img-size-logo" src={Logo} alt="logo" />
+            <img className="img-size-logo-footer" src={Logo} alt="logo" />
           </div>
           <div className="col-xs-12 col-md-6 col-lg-3">
-            <p className="h4">Productos</p>
+            <p className="h4 border-bottom-footer ">Productos</p>
             <div className="mb-2">
-              <button className="text-secondary text-decoration-none">
+              <Link
+                to="/jeans"
+                className="text-footer-color text-decoration-none"
+              >
                 Jeans
-              </button>
+              </Link>
             </div>
             <div className="mb-2">
-              <button className="text-secondary text-decoration-none">
+              <Link
+                to="/shorts"
+                className="text-footer-color text-decoration-none"
+              >
                 Shorts
-              </button>
+              </Link>
             </div>
             <div className="mb-2">
-              <button className="text-secondary text-decoration-none">
+              <Link
+                to="/camperas"
+                className="text-footer-color text-decoration-none"
+              >
                 Camperas
-              </button>
+              </Link>
             </div>
             <div class="mb-2">
-              <button className="text-secondary text-decoration-none">
+              <Link
+                to="/ofertas"
+                className="text-footer-color text-decoration-none"
+              >
                 Ofertas
-              </button>
+              </Link>
             </div>
           </div>
           <div className="col-xs-12 col-md-6 col-lg-3">
-            <p className="h4">Contacto</p>
+            <p className="h4 border-bottom-footer ">Contacto</p>
             <div className="mb-2">
-              <button className="text-secondary text-decoration-none">
-                Direccion: Belgrano 1855 CABA
-              </button>
+              <Link to="/" className="text-footer-color text-decoration-none">
+                Av, San Martin 1587, CABA, <br /> Buenos Aires
+              </Link>
             </div>
             <div className="mb-2">
-              <button className="text-secondary text-decoration-none">
-                Facebook: Mechisjeans@facebook.com
-              </button>
-            </div>
-            <div class="mb-2">
-              <p className="text-secondary text-decoration-none">
-                Instagram: @Mechisjeans
-              </p>
-            </div>
-            <div className="mb-2">
-              <button className="text-secondary text-decoration-none">
-                Whatsapp: loguito
-              </button>
+              <Link to="/" className="text-footer-color text-decoration-none">
+                (+54) 9 11-5674-1599
+              </Link>
             </div>
           </div>
           <div className="col-xs-12 col-md-6 col-lg-3">
-            <p className="h4">Compra</p>
+            <p className="h4 border-bottom-footer ">Seguinos</p>
             <div className="mb-2">
-              <button className="text-secondary text-decoration-none">
-                Preguntas frecuentes
-              </button>
+              <Link to="/" className="text-footer-color text-decoration-none">
+                Instagram
+              </Link>
             </div>
             <div className="mb-2">
-              <button className="text-secondary text-decoration-none">
-                Terminos y condiciones
-              </button>
+              <Link to="/" className="text-footer-color text-decoration-none">
+                Facebook
+              </Link>
             </div>
           </div>
           <div className="col-xs-12 pt-4">
-            <p className="mt-3 text-white text-center">
-              Copyright - All rights reserved © 2022
+            <p className="mt-3 copyright-color text-center">
+              © Loana Jeans 2020 - 2022. Todos los derechos reservados.
             </p>
           </div>
         </div>
