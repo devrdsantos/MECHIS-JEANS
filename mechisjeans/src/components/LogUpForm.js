@@ -46,7 +46,7 @@ const LogUpForm = () => {
         atribute = {{
           id: 'cp',
           name: 'cp',
-          placeholder: ' Ingrese su CP',
+          placeholder: ' Ingrese su Código Postal',
           type: 'text',
         }}
       />

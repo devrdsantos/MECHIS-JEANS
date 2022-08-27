@@ -48,6 +48,11 @@
     margin-bottom: 10px;
     margin-left: 15px;
 }
+
+.alineacionCentro{
+    text-align: center;
+}
+
 .button-add {
     background-color: white;
     font-weight: 600;

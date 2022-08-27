@@ -12,7 +12,7 @@ const LogInForm = () => {
   return (
     <div className='Contenedor-Principal-Log-In-Form'>
       <LogoForm />
-      <TitleForm text='Bienvenida Reyna'/>
+      <TitleForm text='Bienvenida'/>
       <LabelForm text='Usuario'/>
       <InputForm
         atribute = {{

@@ -7,14 +7,14 @@ import Cards from './components/Cards';
 import data  from './data';
 import dataShort  from './dataShort';
 import './styles/card.css';
-<<<<<<< HEAD
+
 import RegistroDeIngreso from './components/LogInForm';
 import LogInForm from './components/LogInForm';
 import LogUpForm from './components/LogUpForm';
 import CardsShort from './components/CardsShort';
-=======
+{/*}=======
 
->>>>>>> 0de05cdf5b8868e0fda4d1e1a32d5558b9af3c0c
+>>>>>>> 0de05cdf5b8868e0fda4d1e1a32d5558b9af3c0c*/}
 
 function App() {
   return (
